@@ -21,18 +21,21 @@ index:
   banner:
     # 是否显示首页 banner
     enable: true
-    # 主页副标题
-    subtitle: "记录生活 · 分享技术"
-    # 打字机特效
-    typed:
-      enable: true
-      # 输入的文字
-      strings: ["欢迎来到我的博客", "记录生活 · 分享技术", "一个 Hexo + Fluid 的博客"]
     # 鼠标向下滑动时是否显示波浪动画
     wave: true
     # 首屏加载动画
     cloud:
       enable: true
+  # 首页副标题
+  slogan:
+    enable: true
+    # 为空则按 hexo config.subtitle 显示
+    text: "记录生活 · 分享技术"
+    # 打字机特效
+    typed:
+      enable: true
+      # 输入的文字
+      strings: ["欢迎来到我的博客", "记录生活 · 分享技术", "一个 Hexo + Fluid 的博客"]
 
 # 文章
 post:
